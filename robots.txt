@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cog-vja.github.io/bluecollar-fc-site/sitemap.xml
