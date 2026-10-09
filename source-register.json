@@ -39,15 +39,15 @@
     },
     {
       "id": "food",
-      "title": "埼玉県「これから食品営業をはじめる皆さまへ」",
-      "url": "https://www.pref.saitama.lg.jp/b0707/syokuhin-sa/20220609.html",
+      "title": "厚生労働省「営業規制（営業許可、営業届出）に関する情報」",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/kigu/index_00010.html",
       "checked_at": "2026-10-09",
       "access_note": "公式ページまたはPDFをWeb取得して確認。"
     },
     {
       "id": "foodguide",
-      "title": "埼玉県坂戸保健所「食品営業許可申請について」（2024年10月版）",
-      "url": "https://www.pref.saitama.lg.jp/documents/217330/061001.pdf",
+      "title": "厚生労働省「HACCPの考え方を取り入れた衛生管理のための手引書」",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000179028_00003.html",
       "checked_at": "2026-10-09",
       "access_note": "公式ページまたはPDFをWeb取得して確認。"
     },
@@ -99,6 +99,13 @@
       "url": "https://www.a8.net/compliance/prohibited-matter.php",
       "checked_at": "2026-10-09",
       "access_note": "公式ページまたはPDFをWeb取得して確認。"
+    },
+    {
+      "id": "foodresponsibility",
+      "title": "厚生労働省「食品衛生責任者の取扱いについて」",
+      "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc4714&dataType=1&pageNo=1",
+      "checked_at": "2026-10-09",
+      "access_note": "公式ページをWeb取得して確認。"
     }
   ],
   "facts": [
