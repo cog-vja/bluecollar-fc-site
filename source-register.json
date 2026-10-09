@@ -1,0 +1,138 @@
+{
+  "checked_at": "2026-10-09",
+  "source_files": "uploaded ZIP; source HTML unchanged in audit directory",
+  "sources": [
+    {
+      "id": "clean",
+      "title": "厚生労働省 job tag「ハウスクリーニング」",
+      "url": "https://shigoto.mhlw.go.jp/user/occupation/detail/487",
+      "checked_at": "2026-10-09",
+      "access_note": "公式ページまたはPDFをWeb取得して確認。"
+    },
+    {
+      "id": "electric",
+      "title": "厚生労働省 job tag「電気工事士」",
+      "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/46",
+      "checked_at": "2026-10-09",
+      "access_note": "公式ページまたはPDFをWeb取得して確認。"
+    },
+    {
+      "id": "truck",
+      "title": "厚生労働省 job tag「トラックドライバー」",
+      "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/477",
+      "checked_at": "2026-10-09",
+      "access_note": "公式ページまたはPDFをWeb取得して確認。"
+    },
+    {
+      "id": "jfc",
+      "title": "日本政策金融公庫「2025年度新規開業実態調査」",
+      "url": "https://www.jfc.go.jp/n/findings/pdf/kaigyo_251205_1.pdf",
+      "checked_at": "2026-10-09",
+      "access_note": "公式ページまたはPDFをWeb取得して確認。"
+    },
+    {
+      "id": "plan",
+      "title": "日本政策金融公庫「創業計画の書き方」",
+      "url": "https://www.jfc.go.jp/n/finance/sougyou/business-plan/",
+      "checked_at": "2026-10-09",
+      "access_note": "公式ページまたはPDFをWeb取得して確認。"
+    },
+    {
+      "id": "food",
+      "title": "埼玉県「これから食品営業をはじめる皆さまへ」",
+      "url": "https://www.pref.saitama.lg.jp/b0707/syokuhin-sa/20220609.html",
+      "checked_at": "2026-10-09",
+      "access_note": "公式ページまたはPDFをWeb取得して確認。"
+    },
+    {
+      "id": "foodguide",
+      "title": "埼玉県坂戸保健所「食品営業許可申請について」（2024年10月版）",
+      "url": "https://www.pref.saitama.lg.jp/documents/217330/061001.pdf",
+      "checked_at": "2026-10-09",
+      "access_note": "公式ページまたはPDFをWeb取得して確認。"
+    },
+    {
+      "id": "freight",
+      "title": "国土交通省「貨物軽自動車運送事業の安全対策強化」",
+      "url": "https://www.mlit.go.jp/jidosha/jidosha_tk2_000172.html",
+      "checked_at": "2026-10-09",
+      "access_note": "公式ページまたはPDFをWeb取得して確認。"
+    },
+    {
+      "id": "freightstart",
+      "title": "国土交通省・大阪運輸支局「貨物軽自動車運送事業」",
+      "url": "https://wwwtb.mlit.go.jp/kinki/osaka/yusou/kamotukei.htm",
+      "checked_at": "2026-10-09",
+      "access_note": "公式ページまたはPDFをWeb取得して確認。"
+    },
+    {
+      "id": "electricreg",
+      "title": "経済産業省「電気工事業法の申請・届出等の手引き」",
+      "url": "https://www.meti.go.jp/policy/safety_security/industrial_safety/sangyo/electric/detail/tebiki_index.html",
+      "checked_at": "2026-10-09",
+      "access_note": "Web検索の公式掲載情報を確認。全文取得は403/取得失敗。制度の詳細数値は転載せず。"
+    },
+    {
+      "id": "robot",
+      "title": "経済産業省「ロボット」政策情報",
+      "url": "https://www.meti.go.jp/policy/mono_info_service/mono/robot/",
+      "checked_at": "2026-10-09",
+      "access_note": "Web検索の公式掲載情報を確認。全文取得は403/取得失敗。制度の詳細数値は転載せず。"
+    },
+    {
+      "id": "fc",
+      "title": "公正取引委員会「フランチャイズ・システムに関する独占禁止法上の考え方」",
+      "url": "https://www.jftc.go.jp/dk/guideline/unyoukijun/franchise.html",
+      "checked_at": "2026-10-09",
+      "access_note": "公式ページまたはPDFをWeb取得して確認。"
+    },
+    {
+      "id": "tos",
+      "title": "job tag 利用規約",
+      "url": "https://shigoto.mhlw.go.jp/user/tos",
+      "checked_at": "2026-10-09",
+      "access_note": "公式ページまたはPDFをWeb取得して確認。"
+    },
+    {
+      "id": "a8",
+      "title": "A8.net「禁止事項」",
+      "url": "https://www.a8.net/compliance/prohibited-matter.php",
+      "checked_at": "2026-10-09",
+      "access_note": "公式ページまたはPDFをWeb取得して確認。"
+    }
+  ],
+  "facts": [
+    {
+      "article": "bluecollar-income.html",
+      "source": "clean",
+      "value": "398.6万円、49.3歳",
+      "scope": "job tag 全国、令和7年賃金構造基本統計調査加工値。独立利益・初任給ではない。"
+    },
+    {
+      "article": "bluecollar-income.html",
+      "source": "electric",
+      "value": "628.1万円、41.6歳",
+      "scope": "同上"
+    },
+    {
+      "article": "bluecollar-income.html",
+      "source": "truck",
+      "value": "507.2万円、51.5歳",
+      "scope": "同上"
+    },
+    {
+      "article": "labor-shortage-business.html",
+      "source": "electric",
+      "value": "有効求人倍率3.84",
+      "scope": "job tag 全国、令和7年度求人統計。独立受注の指標ではない。"
+    },
+    {
+      "article": "what-business-to-start.html",
+      "source": "jfc",
+      "value": "平均975万円、中央値600万円",
+      "scope": "2025年度新規開業実態調査、融資先等、業種混合、回収2165社。"
+    }
+  ],
+  "simulations": "All other cost/revenue figures are original hypothetical examples explicitly labeled in the relevant articles.",
+  "rights": "No third-party photos, charts, screenshots, copied descriptions or copied databases added. Original affiliate anchor and pixel retained."
+}
