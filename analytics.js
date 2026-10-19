@@ -8,7 +8,7 @@ document.addEventListener("click", event => {
   const page = window.location.pathname;
   if (url.hostname === "px.a8.net") {
     window.gtag("event", "affiliate_click", {
-      send_to: "G-XGMNP7Q9VK", article_path: page, affiliate_network: "a8"
+      send_to: "G-XGMNP7Q9VK", article_path: page, affiliate_network: "a8", cta_stage: link.dataset.ctaStage || "unclassified", cta_location: link.dataset.ctaLocation || "unknown"
     });
   } else if (url.origin === window.location.origin && url.pathname !== page) {
     window.gtag("event", "internal_link_click", {
