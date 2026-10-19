@@ -21,3 +21,20 @@ html{scroll-behavior:smooth}body{overflow-wrap:anywhere}.header-inner{gap:20px;f
 @media(max-width:650px){.decision-guide{margin:20px 0 34px;padding:22px 16px;border-radius:12px}.guide-submit{align-items:stretch;flex-direction:column;gap:9px}.guide-submit .button,.guide-actions .button{width:100%;text-align:center}.guide-actions{align-items:stretch;flex-direction:column;gap:9px}.hero-secondary{display:block;margin:5px 0 0}.hero h1{overflow-wrap:normal}.guide-header h2{font-size:24px}.decision-workbook h2{font-size:22px}.reader-outcome{padding:12px 14px}.table-wrap{position:relative;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch}.table-wrap:focus{outline:2px solid #1769aa}.table-wrap table{min-width:550px}.article .cta .button{max-width:100%;white-space:normal;overflow-wrap:anywhere}.article .toc{padding:16px 15px}.nav{gap:8px 15px}.nav a{display:inline-flex;min-height:36px;align-items:center}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.decision-guide form,.guide-result{display:none}.decision-workbook{break-inside:avoid}}
+
+/* Floating BM Franchise banner (only in five decision-oriented articles). */
+.floating-affiliate{position:fixed;z-index:500;right:18px;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:322px;max-width:calc(100vw - 24px);padding:5px 10px 12px;border-radius:12px;background:#fff;border:1px solid #d4dbe2;box-shadow:0 8px 32px rgba(14,30,45,.22);line-height:1.35;text-align:left;isolation:isolate}
+.floating-affiliate__header{min-height:40px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.floating-affiliate__label{font-size:12px;line-height:1.2;color:#44515e;font-weight:700;padding-left:2px}
+.floating-affiliate__close{appearance:none;display:grid;place-items:center;flex:0 0 40px;width:40px;height:40px;margin:0 -4px 0 0;padding:0;border:0;border-radius:8px;background:#edf1f4;color:#203044;cursor:pointer;font:normal 26px/1 Arial,sans-serif}
+.floating-affiliate__close:hover{background:#dae4ee}
+.floating-affiliate__close:focus-visible{outline:3px solid #1769aa;outline-offset:2px}
+.floating-affiliate__creative{display:flex;align-items:center;justify-content:center;min-height:250px}
+.floating-affiliate__creative a{display:block;line-height:0;max-width:100%}
+.floating-affiliate__creative a img{display:block;max-width:none} /* Preserve exact A8 banner dimensions. */
+.floating-affiliate__creative>img[height="1"]{position:absolute;width:1px;height:1px;pointer-events:none}
+.floating-affiliate[data-format="mobile"]{right:10px;bottom:calc(10px + env(safe-area-inset-bottom,0px));width:246px;padding:2px 10px 8px;border-radius:11px;box-shadow:0 5px 18px rgba(14,30,45,.19)}
+.floating-affiliate[data-format="mobile"] .floating-affiliate__header{min-height:40px}
+.floating-affiliate[data-format="mobile"] .floating-affiliate__creative{min-height:33px}
+@media(max-width:360px){.floating-affiliate[data-format="mobile"]{right:8px;bottom:calc(8px + env(safe-area-inset-bottom,0px))}}
+@media print{.floating-affiliate{display:none!important}}
