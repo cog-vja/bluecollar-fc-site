@@ -38,3 +38,13 @@ html{scroll-behavior:smooth}body{overflow-wrap:anywhere}.header-inner{gap:20px;f
 .floating-affiliate[data-format="mobile"] .floating-affiliate__creative{min-height:33px}
 @media(max-width:360px){.floating-affiliate[data-format="mobile"]{right:8px;bottom:calc(8px + env(safe-area-inset-bottom,0px))}}
 @media print{.floating-affiliate{display:none!important}}
+
+/* 2026-10-25: intent-specific reading paths & affiliate preflight */
+.contextual-next,.decision-paths{margin:26px 0;padding:20px 22px;border:1px solid #d5e3e4;border-left:4px solid #168d79;border-radius:10px;background:#f5faf9}
+.contextual-next h3{font-size:18px;margin:0 0 9px}.contextual-next p:last-child{margin-bottom:0}
+.affiliate-preflight{margin:18px 0;padding:17px 20px;background:rgba(255,255,255,.92);border:1px solid #c7d6e2;border-radius:9px;color:#26384b}
+.affiliate-preflight p{font-size:14px;line-height:1.8;margin:0 0 10px}.affiliate-preflight p:last-child{margin-bottom:0}
+.decision-paths h2{margin-top:9px}.decision-paths .path-cards>div{background:#fff}
+.cta .button{display:inline-block;min-height:44px;max-width:100%;white-space:normal;overflow-wrap:anywhere;text-align:center}
+@media(max-width:650px){.contextual-next,.decision-paths{padding:17px 15px}.affiliate-preflight{padding:15px}.cta .button{width:100%}}
+@media print{.affiliate-preflight{border:1px solid #999}.decision-paths,.contextual-next{background:#fff}}

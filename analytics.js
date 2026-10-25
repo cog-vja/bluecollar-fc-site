@@ -20,3 +20,28 @@ document.addEventListener("click", event => {
     });
   }
 });
+
+
+// Record qualifying CTA button visibility, not banner downloads or a guarantee
+// that the reader read the ad. Only non-PII context is sent to GA4.
+document.addEventListener("DOMContentLoaded", () => {
+  if (!("IntersectionObserver" in window)) return;
+  const links = Array.from(document.querySelectorAll('.cta a[href^="https://px.a8.net/"]'));
+  if (!links.length) return;
+  const observer = new IntersectionObserver(entries => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting || entry.intersectionRatio < 0.5) continue;
+      const link = entry.target;
+      observer.unobserve(link);
+      if (typeof window.gtag === "function") {
+        window.gtag("event", "affiliate_cta_view", {
+          send_to: "G-XGMNP7Q9VK",
+          article_path: window.location.pathname,
+          cta_location: link.dataset.ctaLocation || "article_bottom",
+          cta_stage: link.dataset.ctaStage || "comparison"
+        });
+      }
+    }
+  }, {threshold: [0, 0.5]});
+  links.forEach(link => observer.observe(link));
+});

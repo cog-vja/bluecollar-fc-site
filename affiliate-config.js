@@ -1,6 +1,4 @@
-// ============================================
-// アフィリエイト設定
-// A8.net等で取得したリンクに、この1行だけ差し替えてください。
-// 例: window.AFFILIATE_URL = "https://px.a8.net/....";
-// ============================================
-window.AFFILIATE_URL = "https://bmfc.b-mall.ne.jp/";
+// Deprecated compatibility file. Deliberately does not define a direct advertising URL.
+// Audit on 2026-10-25: no HTML or JS imports or reads window.AFFILIATE_URL.
+// Use only advertiser/ASP-approved tracked A8 code for affiliate buttons.
+// Do not put non-affiliate BM Franchise URLs into revenue-generating CTAs.
