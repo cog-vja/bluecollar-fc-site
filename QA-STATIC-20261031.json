@@ -1,0 +1,129 @@
+{
+  "html_pages": 20,
+  "sitemap_urls": 20,
+  "original_ad_pages": 13,
+  "errors": [],
+  "warnings": [],
+  "pages": {
+    "about.html": {
+      "title": "サイトについて・編集方針｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/about.html",
+      "internalLinks": 9
+    },
+    "bluecollar-ai-resistant-jobs.html": {
+      "title": "AIに代替されにくい現場仕事は？職種別の特徴と自動化の限界｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/bluecollar-ai-resistant-jobs.html",
+      "internalLinks": 27
+    },
+    "bluecollar-hot-ai.html": {
+      "title": "AI時代にブルーカラーが注目される理由｜仕事内容・需要・収入の見方｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/bluecollar-hot-ai.html",
+      "internalLinks": 28
+    },
+    "bluecollar-income.html": {
+      "title": "ブルーカラーの年収は？職種別給与と独立後の利益の違い｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/bluecollar-income.html",
+      "internalLinks": 26
+    },
+    "bluecollar-independent.html": {
+      "title": "ブルーカラーから独立するには？転職・副業・開業の選び方｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/bluecollar-independent.html",
+      "internalLinks": 26
+    },
+    "cafe-independent-beginner.html": {
+      "title": "未経験からカフェを開業するには？必要資金・準備・売上の考え方｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/cafe-independent-beginner.html",
+      "internalLinks": 25
+    },
+    "cleaning-business-failure-cashflow.html": {
+      "title": "清掃業の独立失敗を避ける｜受注不足・移動費・入金遅延の資金繰り｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/cleaning-business-failure-cashflow.html",
+      "internalLinks": 17
+    },
+    "cleaning-business-independent.html": {
+      "title": "ハウスクリーニングで独立開業するには？費用・収支・FCとの違い｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/cleaning-business-independent.html",
+      "internalLinks": 35
+    },
+    "cleaning-scenario-calculator.html": {
+      "title": "清掃業の個人開業・FC加盟｜件数と固定費から収支を比較する無料計算ツール",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/cleaning-scenario-calculator.html",
+      "internalLinks": 4
+    },
+    "fc-comparison-checklist.html": {
+      "title": "FC契約前チェックリスト｜加盟金・ロイヤリティ・解約条件を確認｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/fc-comparison-checklist.html",
+      "internalLinks": 18
+    },
+    "field-work-business-list.html": {
+      "title": "現場仕事の独立業種を比較｜初期費用・必要技能・集客方法｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/field-work-business-list.html",
+      "internalLinks": 42
+    },
+    "field-work-independent-options.html": {
+      "title": "現場経験を活かして独立する方法｜受注・資金・FC比較の準備｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/field-work-independent-options.html",
+      "internalLinks": 27
+    },
+    "house-cleaning-franchise-compare.html": {
+      "title": "ハウスクリーニングFC比較｜清掃専業と関連サービスの費用・契約条件｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/house-cleaning-franchise-compare.html",
+      "internalLinks": 18
+    },
+    "independent-without-experience.html": {
+      "title": "未経験から独立できる仕事は？研修・初期費用・集客方法で比較｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/independent-without-experience.html",
+      "internalLinks": 32
+    },
+    "index.html": {
+      "title": "現場仕事と独立の費用・働き方を比較｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/",
+      "internalLinks": 53
+    },
+    "labor-shortage-business.html": {
+      "title": "人手不足の業界で独立できる？需要・採用・利益の見極め方｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/labor-shortage-business.html",
+      "internalLinks": 25
+    },
+    "privacy.html": {
+      "title": "プライバシー・広告について｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/privacy.html",
+      "internalLinks": 9
+    },
+    "ramen-independent-beginner.html": {
+      "title": "未経験からラーメン屋を開業するには？必要資金と個人店・FCの違い｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/ramen-independent-beginner.html",
+      "internalLinks": 25
+    },
+    "restaurant-manager-independent.html": {
+      "title": "飲食店長から独立するには？経験の活かし方と開業方法を比較｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/restaurant-manager-independent.html",
+      "internalLinks": 26
+    },
+    "what-business-to-start.html": {
+      "title": "脱サラして何をする？独立の業種選びと自己資金・経験別の比較｜現場仕事と独立ラボ",
+      "h1": 1,
+      "canonical": "https://cog-vja.github.io/bluecollar-fc-site/what-business-to-start.html",
+      "internalLinks": 36
+    }
+  }
+}

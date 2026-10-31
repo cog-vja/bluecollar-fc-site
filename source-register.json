@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-09",
+  "checked_at": "2026-10-31",
   "source_files": "uploaded ZIP; source HTML unchanged in audit directory",
   "sources": [
     {
@@ -106,6 +106,27 @@
       "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc4714&dataType=1&pageNo=1",
       "checked_at": "2026-10-09",
       "access_note": "公式ページをWeb取得して確認。"
+    },
+    {
+      "id": "jftc20261031",
+      "title": "公正取引委員会・フランチャイズシステムに関する考え方",
+      "url": "https://www.jftc.go.jp/dk/guideline/unyoukijun/franchise.html",
+      "checked_at": "2026-10-31",
+      "access_note": "公式Webページ。契約前の望ましい開示事項を確認"
+    },
+    {
+      "id": "chusho20261031",
+      "title": "中小企業庁・特定連鎖化事業",
+      "url": "https://www.chusho.meti.go.jp/shogyo/shogyo/franchise.html",
+      "checked_at": "2026-10-31",
+      "access_note": "公式Webページ。書面交付義務は適用要件に従う"
+    },
+    {
+      "id": "portal20261025",
+      "title": "BMフランチャイズ・清掃FC一覧（過去の掲載表示）",
+      "url": "https://bmfc.b-mall.ne.jp/fc/list/?category=85&dm=pc",
+      "checked_at": "2026-10-25",
+      "access_note": "前回監査時点の掲載例。2026-10-31時点の費用・加盟可能性は未検証"
     }
   ],
   "facts": [

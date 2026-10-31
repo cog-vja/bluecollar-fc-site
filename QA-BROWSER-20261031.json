@@ -1,0 +1,83 @@
+{
+  "screens": 12,
+  "tested_viewports": [
+    "390x844",
+    "1365x900"
+  ],
+  "results": [
+    {
+      "width": 390,
+      "page": "index.html",
+      "overflow_px": 0,
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "page": "cleaning-business-independent.html",
+      "overflow_px": 0,
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "page": "house-cleaning-franchise-compare.html",
+      "overflow_px": 0,
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "page": "fc-comparison-checklist.html",
+      "overflow_px": 0,
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "page": "cleaning-business-failure-cashflow.html",
+      "overflow_px": 0,
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "page": "cleaning-scenario-calculator.html",
+      "overflow_px": 0,
+      "h1": 1
+    },
+    {
+      "width": 1365,
+      "page": "index.html",
+      "overflow_px": 0,
+      "h1": 1
+    },
+    {
+      "width": 1365,
+      "page": "cleaning-business-independent.html",
+      "overflow_px": 0,
+      "h1": 1
+    },
+    {
+      "width": 1365,
+      "page": "house-cleaning-franchise-compare.html",
+      "overflow_px": 0,
+      "h1": 1
+    },
+    {
+      "width": 1365,
+      "page": "fc-comparison-checklist.html",
+      "overflow_px": 0,
+      "h1": 1
+    },
+    {
+      "width": 1365,
+      "page": "cleaning-business-failure-cashflow.html",
+      "overflow_px": 0,
+      "h1": 1
+    },
+    {
+      "width": 1365,
+      "page": "cleaning-scenario-calculator.html",
+      "overflow_px": 0,
+      "h1": 1
+    }
+  ],
+  "errors": [],
+  "method": "Chromium set_content with local CSS/JS and module embedded; external scripts blocked; no HTTP / A8 redirects / floating ad path+scroll retest"
+}
