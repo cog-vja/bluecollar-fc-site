@@ -51,3 +51,8 @@ html{scroll-behavior:smooth}body{overflow-wrap:anywhere}.header-inner{gap:20px;f
 
 /* 2026-10-31: cleaning cluster supplemental pages */
 .contract-checks{padding-left:1.8rem}.contract-checks li{padding:7px 0;border-bottom:1px solid #e2e8ef}.contract-checks label{display:block;cursor:pointer}.contract-checks input{width:18px;height:18px;vertical-align:middle;accent-color:#145781}.check-print{font:inherit;background:#1769aa;color:#fff;border:0;border-radius:8px;padding:12px 16px;cursor:pointer}.check-print:focus-visible{outline:3px solid #e18b24;outline-offset:3px} .table-wrap{max-width:100%;overflow-x:auto} @media print{.site-header,.nav,.cta,.check-print,.footer{display:none!important}.article{box-shadow:none;padding:0}.contract-checks input{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+
+/* 2026-11-02 brand clarity: recognizable icon in every header */
+.site-header .brand{display:inline-flex;align-items:center;gap:10px;line-height:1.35}
+.site-header .brand-logo{display:block;flex:none;width:36px;height:36px;border-radius:9px;object-fit:cover}
+@media(max-width:650px){.site-header .brand{gap:9px}.site-header .brand-logo{width:32px;height:32px;border-radius:8px}}
