@@ -1,6 +1,4 @@
-# Note: on GitHub Pages project sites, /bluecollar-fc-site/robots.txt
-# is not the host-root /robots.txt. Submit sitemap.xml directly in Search Console.
 User-agent: *
 Allow: /
 
-Sitemap: https://cog-vja.github.io/bluecollar-fc-site/sitemap.xml
+Sitemap: https://bluecollar-fc-site.com/sitemap.xml
