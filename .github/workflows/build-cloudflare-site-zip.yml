@@ -1,0 +1,28 @@
+
+name: Build bluecollar Cloudflare migration ZIP
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Prepare Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Create validated production ZIP from latest source
+        run: python scripts/build_migration.py --repo . --dist dist
+      - name: Attach production ZIP and QA report
+        uses: actions/upload-artifact@v4
+        with:
+          name: bluecollar-cloudflare-production-ready
+          path: |
+            dist/bluecollar-fc-site-production-ready.zip
+            dist/MIGRATION_QA_REPORT.json
+          if-no-files-found: error
